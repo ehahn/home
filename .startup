@@ -1,0 +1,5 @@
+/usr/lib/notification-daemon/notification-daemon &
+start-pulseaudio-kde &
+pidgin & 
+mail-notification & 
+dropbox start &
