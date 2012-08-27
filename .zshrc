@@ -13,7 +13,10 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-alias s="sudo -s"
+alias s="sudo -sE"
 alias ls="ls --color"
-#alias python="python3.2"
+alias ssh-coli="ssh -l ehahn login.coli.uni-saarland.de"
+alias tests="python3 -m unittest **/*.py"
 PROMPT="%n@%M:%~%# "
+
+alias -g pypr="~/Documents/Uni/Python\ 2/project"

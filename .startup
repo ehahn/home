@@ -3,3 +3,4 @@ start-pulseaudio-kde &
 pidgin & 
 mail-notification & 
 dropbox start &
+setxkbmap de -variant nodeadkeys &
