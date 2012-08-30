@@ -4,3 +4,4 @@ pidgin &
 mail-notification & 
 dropbox start &
 setxkbmap de -variant nodeadkeys &
+nitrogen --restore

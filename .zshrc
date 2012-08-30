@@ -16,7 +16,7 @@ compinit
 alias s="sudo -sE"
 alias ls="ls --color"
 alias ssh-coli="ssh -l ehahn login.coli.uni-saarland.de"
-alias tests="python3 -m unittest **/*.py"
+alias tests="nosetests3 **/*.py --with-coverage --cover-html"
 PROMPT="%n@%M:%~%# "
 
 alias -g pypr="~/Documents/Uni/Python\ 2/project"
